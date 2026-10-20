@@ -11,7 +11,7 @@ const facts = [
 
 export function Glance() {
   return (
-    <section className="bg-paper py-12 md:py-16">
+    <section className="bg-paper pt-12 pb-4 md:pt-16 md:pb-6">
       <Container>
         <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <Reveal>

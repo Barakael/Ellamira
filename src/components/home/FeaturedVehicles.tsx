@@ -9,7 +9,7 @@ export function FeaturedVehicles() {
   const featured = getFeaturedVehicles();
 
   return (
-    <section className="bg-paper py-12 md:py-16">
+    <section className="bg-paper pt-4 pb-12 md:pt-6 md:pb-16">
       <Container>
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <Chapter
