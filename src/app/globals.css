@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #082860;
+  --color-navy-deep: #001030;
+  --color-navy-ink: #002460;
+  --color-crimson: #d01828;
+  --color-signal: #0848b8;
+  --color-paper: #f6f7f9;
+  --color-mist: #e8eef4;
+  --color-steel: #5c6b80;
+  --color-ink: #0c1220;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f6f7f9;
+  color: #0c1220;
+}
+
+h1.font-serif,
+h2.font-serif,
+h3.font-serif,
+p.font-serif,
+span.font-serif,
+a.font-serif {
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+::selection {
+  background: #d01828;
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid #d01828;
+  outline-offset: 3px;
+}
+
+.marquee-track {
+  animation: marquee 36s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .marquee-track > ul:last-child {
+    display: none;
+  }
+}
