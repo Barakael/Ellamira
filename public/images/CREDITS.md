@@ -4,7 +4,7 @@ Photographs are used under the [Unsplash License](https://unsplash.com/license).
 | --- | --- |
 | hero.jpg | https://unsplash.com/photos/1492144534655-ae79c964c9d7 |
 | port.jpg | https://unsplash.com/photos/1578575437130-527eed3abbec |
-| accent.jpg | https://unsplash.com/photos/1584345274849-e9596d6ea12d — Meritt Thomas |
+| accent.jpg | Generated representative image — modern red compact sedan under blue sky |
 | bmw.jpg | https://unsplash.com/photos/1555215695-3004980ad54e |
 | gle.jpg | https://unsplash.com/photos/1590362891991-f776e747a588 |
 | explorer.jpg | https://unsplash.com/photos/1606611013016-969c19ba27bb |
