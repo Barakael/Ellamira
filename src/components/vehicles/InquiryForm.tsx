@@ -120,8 +120,7 @@ function InquiryFields({ mode, preset }: { mode: Mode; preset: string }) {
         {mode === "partner" ? "Propose a partnership." : "Request a vehicle."}
       </h2>
       <p className="mt-3 text-sm leading-relaxed text-steel">
-        Sending opens WhatsApp to +255 753 103 533 with your message and prepares the
-        same inquiry for {company.email}. Nothing is stored on the website.
+  inquiry for {company.email}.
       </p>
       <div className="mt-6 grid gap-4">
         <Field label="Name" error={errors.name} id="inquiry-name">
