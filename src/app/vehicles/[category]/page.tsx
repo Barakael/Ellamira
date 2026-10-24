@@ -50,7 +50,7 @@ async function CategoryContent({
           </div>
           <div className="mt-8 flex flex-col gap-4 border border-mist bg-mist/40 p-6 sm:flex-row sm:items-center sm:justify-between">
             <p className="max-w-xl text-sm leading-relaxed text-steel">
-              Need a different specification in this category? Tell us the use, budget and any preferred details.
+              Need a different specification in this brand? Tell us the use, budget and any preferred details.
             </p>
             <ButtonLink href="/contact">Request a vehicle</ButtonLink>
           </div>
