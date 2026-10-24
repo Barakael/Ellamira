@@ -28,10 +28,10 @@ export default function HomePage() {
       <CategoryGrid />
       <FeaturedVehicles />
       <ServicePreview />
-      <ProcessStrip />
+      
       <WhyGrid />
       <CustomerTypes />
-      <CommitmentBand />
+     
       <ContactClose />
     </>
   );

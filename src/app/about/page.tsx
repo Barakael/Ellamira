@@ -86,31 +86,7 @@ export default function AboutPage() {
           </ul>
         </Container>
       </section>
-      <section className="bg-paper py-12 md:py-16">
-        <Container>
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-            <div>
-              <p className="text-xs font-semibold tracking-[0.18em] text-crimson uppercase">
-                Our commitment
-              </p>
-              <h2 className="mt-4 font-serif text-4xl text-navy-ink">
-                Building a brand customers can trust.
-              </h2>
-              <p className="mt-5 max-w-xl leading-relaxed text-steel">{company.commitment}</p>
-            </div>
-            <aside className="border border-mist bg-white p-6">
-              <p className="text-xs font-semibold tracking-[0.18em] text-crimson uppercase">
-                Company registration
-              </p>
-              <ul className="mt-4 space-y-3 text-sm text-navy-ink">
-                <li>TIN {company.tin}</li>
-                <li>Company registration no. {company.registration}</li>
-                <li>Registered {company.registered}</li>
-              </ul>
-            </aside>
-          </div>
-        </Container>
-      </section>
+    
     </>
   );
 }
