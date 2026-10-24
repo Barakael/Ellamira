@@ -21,9 +21,9 @@ export const company = {
   registration: "208-602-210",
   registered: "2026",
   vision:
-    "To become a trusted and leading automotive trading company in Tanzania and East Africa, recognized for quality vehicles, reliability and exceptional customer service.",
+    "To become a trusted and leading automotive trading company in Tanzania and East Africa.",
   mission:
-    "To provide customers with reliable access to quality vehicles through professional sourcing, efficient importation and customer-focused vehicle sales while building long-term relationships based on trust and integrity.",
+    "To provide customers with reliable access to quality vehicles.",
   commitment:
     "At Ellamira Trading Company Ltd, we are committed to building a brand that customers can trust. Our promise is to provide quality vehicles, reliable sourcing, competitive prices, professional service and customer satisfaction.",
   partnershipPhilosophy:
@@ -123,7 +123,7 @@ export const reasons = [
   {
     index: "02",
     title: "Wide range of vehicles",
-    body: "We deal in various categories of vehicles suitable for different needs.",
+    body: "We source the marques customers ask for most — from passenger cars to commercial trucks and coaches.",
   },
   {
     index: "03",
