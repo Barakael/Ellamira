@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { CommitmentBand } from "@/components/home/CommitmentBand";
 import { ContactClose } from "@/components/home/ContactClose";
 import { CustomerTypes } from "@/components/home/CustomerTypes";
@@ -24,7 +25,7 @@ export default function HomePage() {
       <Hero />
       <PromiseMarquee />
       <Glance />
-     {/* <CategoryGrid /> */}
+      <CategoryGrid />
       <FeaturedVehicles />
       <ServicePreview />
       <ProcessStrip />
