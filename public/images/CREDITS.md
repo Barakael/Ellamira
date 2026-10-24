@@ -1,4 +1,4 @@
-Photographs are used under the [Unsplash License](https://unsplash.com/license). They are representative images for the showroom, not photographs of vehicles held in stock.
+Photographs are used under the [Unsplash License](https://unsplash.com/license) where noted. Generated images are representative showroom assets, not photographs of vehicles held in stock.
 
 | File | Source |
 | --- | --- |
@@ -11,8 +11,12 @@ Photographs are used under the [Unsplash License](https://unsplash.com/license).
 | tacoma.jpg | https://unsplash.com/photos/1559416523-140ddc3d238c |
 | f150.jpg | https://unsplash.com/photos/1551830820-330a71b99659 |
 | scania.jpg | https://unsplash.com/photos/1601584115197-04ecc0da31d7 |
-| kenworth.jpg | https://unsplash.com/photos/1591768793355-74d04bb6608f |
 | coach.jpg | https://unsplash.com/photos/1570125909232-eb263c188f7e |
-| citybus.jpg | https://unsplash.com/photos/1632276536839-84cad7fd03b0 |
 | gclass.jpg | https://unsplash.com/photos/1578557904035-f68542b3770e — Lucas Sandor |
-| promaster.jpg | https://unsplash.com/photos/1605410791216-3d9653a95667 — Leo_Visions |
+| nissan.jpg | Generated representative image — Nissan X-Trail, navy/crimson brand palette |
+| mazda.jpg | Generated representative image — Mazda CX-5, navy/crimson brand palette |
+| faw.jpg | Generated representative image — FAW cargo truck, navy/crimson brand palette |
+| howo.jpg | Generated representative image — HOWO tipper, navy/crimson brand palette |
+| canter.jpg | Generated representative image — Mitsubishi Canter, navy/crimson brand palette |
+| shacman.jpg | Generated representative image — Shacman heavy truck, navy/crimson brand palette |
+| tata.jpg | Generated representative image — TATA light truck, navy/crimson brand palette |
