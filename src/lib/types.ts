@@ -1,10 +1,17 @@
 export type CategorySlug =
-  | "passenger-cars"
-  | "suvs"
-  | "pickups"
-  | "trucks"
-  | "buses"
-  | "specialized";
+  | "toyota"
+  | "nissan"
+  | "bmw"
+  | "mercedes-benz"
+  | "mazda"
+  | "faw"
+  | "howo"
+  | "mitsubishi"
+  | "hyundai"
+  | "shacman"
+  | "scania"
+  | "ford"
+  | "tata";
 
 export type Spec = {
   label: string;
@@ -30,4 +37,6 @@ export type Category = {
   summary: string;
   image: string;
   imageAlt: string;
+  /** Shown in the home “most sold brands” row when true. */
+  featured?: boolean;
 };
